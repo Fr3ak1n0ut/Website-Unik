@@ -7,7 +7,7 @@ body {
   text-align: center;
   color: white;
   background-image: url("../assets/heroimage.jpg")
-}
+} 
 .Test a:hover {
   color: #f74c3c;
 }
