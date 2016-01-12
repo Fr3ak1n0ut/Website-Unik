@@ -1,0 +1,85 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+
+body {
+  padding-top: 50px;
+}
+.jumbotron {
+  text-align: center;
+  color: white;
+  background-image: url("../assets/heroimage.jpg")
+}
+.Test a:hover {
+  color: #f74c3c;
+}
+
+/*ul.nav, .jumbotron h1 {
+  font-family: 'Avro', courier, serif;
+}*/
+
+ul.nav {
+  font-size: 13px;
+}
+.jumbotron h1 {
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+.homepage {
+  text-align: center;
+  line-height: 1.5em;
+}
+.homepage h2, .homepage h3 {
+  color: #f74c3c;
+  font-family: 'Klavika', courier, serif;
+  text-transform: uppercase;
+  margin: 30px;
+}
+.homepage p {
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 1.5em;
+}
+.homepage h3 {
+  font-size: 26px;
+}
+.homepage a {
+  color: #f74c3c;
+}
+.homepage h2 {
+  font-size: 30px;
+}
+.jumbotron img {
+  margin: 50px;
+}
+.jumbotron p {
+  margin-bottom: 30px;
+  font-weight: 100;
+  padding: 0 40px;
+}
+.homepage a:hover {
+  color: #f74c3c;
+  text-decoration: none;
+  opacity: 0.5;
+}
+#get-involved {
+  background-color: #f5f5f5;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+#who-we-are {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+.homepage hr {
+  border-top: 1px solid #f74c3c;
+  width: 160px;
+  margin-top: 15px;
+}
+.btn-lg {
+  font-size: 36px;
+}
+footer {
+  background-color: #f74c3c;
+  padding-top: 150px;
+  padding-bottom: 30px;
+}

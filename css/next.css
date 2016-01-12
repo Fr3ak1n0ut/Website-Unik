@@ -1,0 +1,10 @@
+#the-slider img {
+  width: 100%;
+  text-align: center;
+}
+.navbar {
+  background-color: #282828;
+}
+.navbar li a:hover {
+  color: white !important;
+}
