@@ -12,6 +12,24 @@ body {
 .Test a:hover {
   color: #f74c3c;
 }
+a.back-to-top i {
+  padding-top: 15px;
+  color: white;
+}
+a.back-to-top {
+	display: none;
+  text-align: center;
+	width: 60px;
+	height: 60px;
+	position: fixed;
+	z-index: 999;
+	right: 20px;
+	bottom: 20px;
+	background: #f74c3c;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+}
 
 /*ul.nav, .jumbotron h1 {
   font-family: 'Avro', courier, serif;
