@@ -6,7 +6,8 @@ body {
 .jumbotron {
   text-align: center;
   color: white;
-  background-image: url("../assets/heroimage.jpg")
+  background-image: url("../assets/heroimage.jpg");
+  margin-bottom: 0px;
 }
 .Test a:hover {
   color: #f74c3c;
@@ -28,13 +29,15 @@ ul.nav {
   text-align: center;
   line-height: 1.5em;
 }
-.homepage h2, .homepage h3 {
+.homepage h1, .homepage h2, .homepage h3 {
+  text-decoration: underline;
   color: #f74c3c;
   font-family: 'Klavika', courier, serif;
   text-transform: uppercase;
   margin: 30px;
 }
 .homepage p {
+  text-align: justify;
   font-weight: 300;
   font-size: 21px;
   line-height: 1.5em;
@@ -52,6 +55,7 @@ ul.nav {
   margin: 50px;
 }
 .jumbotron p {
+  text-align: justify;
   margin-bottom: 30px;
   font-weight: 100;
   padding: 0 40px;
@@ -60,6 +64,11 @@ ul.nav {
   color: #f74c3c;
   text-decoration: none;
   opacity: 0.5;
+}
+#page-bar {
+  width: 100%;
+  height: 60px;
+  background-color: #222;
 }
 #wer-sind-wir {
   padding-top: 30px;
@@ -83,8 +92,8 @@ ul.nav {
 }
 .homepage hr {
   border-top: 1px solid #f74c3c;
-  width: 160px;
-  margin-top: 15px;
+  width: 30%;
+  margin-top: 20px;
 }
 .btn-lg {
   font-size: 36px;
